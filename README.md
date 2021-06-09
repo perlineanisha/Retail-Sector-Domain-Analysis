@@ -28,3 +28,15 @@ The variable names and their descriptions are as follows:
 7. CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
 
 8. Country: Country name. Nominal, the name of the country where each customer resides.
+
+### Method
+
+1. Customer Clustering
+2. RFM Timeseries
+
+### Conclusion
+1. We are able to separate customers into different segments, based on the type of products that they buy.
+
+2. Using a Voting Classifier and a combination of multiple machine learning models, such as Random Forest, Gradient Boosted Decision Trees, K-Nearest Neighbours, and Logistic Regression, we are able to predict what type of product a user will buy, with a precision of 94.07%.
+
+3. We can use this information to target selected customers with promotional offers for their desired products, which increases the likelihood of more sales in the future.
